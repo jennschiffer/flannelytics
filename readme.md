@@ -3,7 +3,7 @@
 
 ### configure
 
-After you clone this repo, got into the `flannelytics` folder and clone the google api php client:
+After you clone this repo, go into the `flannelytics` folder and clone the google api php client:
 
 `git clone -b v1-master https://github.com/google/google-api-php-client.git`
 
