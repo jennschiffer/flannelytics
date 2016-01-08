@@ -3,6 +3,14 @@
 
 ### configure
 
+After you clone this repo, got into the `flannelytics` folder and clone the google api php client:
+
+`git clone -b v1-master https://github.com/google/google-api-php-client.git`
+
+You gotta use the v1-master branch ok?
+
+Ok.
+
 You'll need to create a service account and then update `config.php` with your service account email and location of your .p12 key file. [See google's documentation on how to do get started with the api and create service accounts ok!](https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-php). Also important - you need to add that service account email as a read-only user to your site's admin in Analytics.
 
 You can also set the start and end date from when you want views shown in the same `config.php` file. ~* yeehaw *~
